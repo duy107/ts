@@ -7,7 +7,8 @@
     "build": "rimraf dist && tsc",
     "ts.check": "tsc --project tsconfig.json",
     "add-build": "git add dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "author": "",
   "license": "ISC",
@@ -20,7 +21,7 @@
   "devDependencies": {
     "@types/express": "^5.0.0",
     "@types/node": "^22.10.1",
-    "husky": "^9.1.7",
+    "husky": "^8.0.0",
     "nodemon": "^3.1.7",
     "pre-commit": "^1.2.2",
     "rimraf": "^6.0.1",
